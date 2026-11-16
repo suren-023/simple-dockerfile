@@ -1,0 +1,10 @@
+services:
+  nginx-simple:
+    build: 
+      context: ..
+      dockerfile: Dockerfile
+    image: ngx-prac
+    dockername: ngx-simple1
+    ports:
+      - "23900:80"
+    restart: unless-stopped
