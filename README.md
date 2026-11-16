@@ -12,3 +12,5 @@ Practicing docker
 
 # How to run
 1. cd and docker compose up -ds
+
+project URL: https://github.com/suren-023/simple-dockerfile
